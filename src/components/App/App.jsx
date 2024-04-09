@@ -1,5 +1,5 @@
 import user from 'data/user.json';
-import Profile from '../Profile/Profile';
+import { Profile } from '../Profile/Profile';
 
 
 // import data from '../data/data.json';
@@ -11,7 +11,7 @@ import Profile from '../Profile/Profile';
 // import transactions from '../data/transactions.json';
 // import TransactionHistory from './TransactionHistory/TransactionHistory';
 
-export default function App() {
+export const App = () => {
   return (
     <>
       <Profile
