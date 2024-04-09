@@ -1,0 +1,20 @@
+.title {
+  background-color: aqua;
+  padding: 10px 0;
+  width: 150px;
+  font-size: 20px;
+}
+
+.line {
+  height: 40px;
+  background-color: white;
+}
+
+.line:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+.text {
+  padding: 0 20px;
+  font-size: 20px;
+}

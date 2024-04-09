@@ -1,0 +1,22 @@
+.item {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid grey;
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.online {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
